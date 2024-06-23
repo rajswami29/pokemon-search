@@ -26,9 +26,9 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <>
       <SeachForm onFilterChange={handleFilterChange} />
       <PokemonList pokemon={pokemon} />
-    </div>
+    </>
   );
 }
